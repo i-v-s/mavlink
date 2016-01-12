@@ -142,12 +142,13 @@ set(v0.9Definitions
     test.xml
     ualberta.xml
     )
-generateMavlink("0.9" "${v0.9Definitions}")
+#generateMavlink("0.9" "${v0.9Definitions}")
 set(v1.0Definitions
     ASLUAV.xml
     ardupilotmega.xml
     autoquad.xml
     common.xml
+    ros.xml
     matrixpilot.xml
     minimal.xml
     paparazzi.xml
