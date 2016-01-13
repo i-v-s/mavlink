@@ -148,7 +148,6 @@ set(v1.0Definitions
     ardupilotmega.xml
     autoquad.xml
     common.xml
-    ros.xml
     matrixpilot.xml
     minimal.xml
     paparazzi.xml
