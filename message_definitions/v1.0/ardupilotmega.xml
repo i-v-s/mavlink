@@ -941,6 +941,7 @@
     </message>
     <!-- ROS messages -->
 	<message id="230" name="ROS_INFO">
+    <field name="host_id" type="uint16_t">Id of the host</field>
 		<field name="state" type="uint8_t">State of the ROS</field>
 		<field name="host" type="char[24]">Name of the host</field>
 		<field name="node_count" type="uint8_t">Total count of nodes</field>
@@ -961,6 +962,10 @@
     <message id="233" name="RPG_SVO_KEY">
       <description>Command key for rpg_svo node.</description>
       <field type="char" name="key">Command key for rpg_svo node.</field>
-    </message>    
+    </message>
+    <message id="234" name="ROS_CMD_LAUNCH">
+      <description>Command to launch ROS nodes</description>
+      <field type="char[32]" name="launch_file">Name of the .launch file.</field>
+    </message>
      </messages>
 </mavlink>
